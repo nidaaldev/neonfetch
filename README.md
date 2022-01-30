@@ -2,8 +2,10 @@
 
 *See your computer information easily*
 
+
 <h1>Usage</h1>
 
+**Python3 Required**
 
 Installer:
 ```
