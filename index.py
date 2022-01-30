@@ -18,3 +18,7 @@ print('ARCH: ' + archInfo)
 # OS
 osName = platform.system()
 print('OS: ' + osName)
+
+# USERNAME
+username = os.getlogin()
+print('User: ' + username)
