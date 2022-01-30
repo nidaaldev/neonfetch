@@ -16,7 +16,7 @@ if platform.system() == 'Linux':
         os.system('sudo apt update -y && sudo apt install python3 -y && sudo apt install python3-pip && pip3 install py-cpuinfo')
         print('All Dependencies Installed Successfully')
     except:
-        print('Uknown error')
+        print('Unknown error')
 
 
 if platform.system() == 'Windows':
@@ -24,4 +24,4 @@ if platform.system() == 'Windows':
         os.system('pip3 install py-cpuinfo')
         print('All Dependencies Installed Successfully')
     except:
-        print('Uknown Error')
+        print('Unknown Error')
